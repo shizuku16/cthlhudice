@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>test</title>
+<script type="text/JavaScript">
+
+function button(){
+var URL="https://charasheet.vampire-blood.net/4067975"
+fetch(URL)
+.then(response=>response.json())
+.then(date=>console.log(date))
+}
+
+</script>
+</head>
+
+<body onload="uketori()">
+<form name="form1">
+<input type="button" value="test" onclick="button()">
+
+</form>
+</body>
+</html>
