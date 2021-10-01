@@ -5,7 +5,7 @@
 
 function button(){
 var URL="https://charasheet.vampire-blood.net/4067975"
-fetch(URL,{mode:"no-cors"})
+fetch(URL,{mode:"cors"})
   .then(a=>a.json())
 .then(date=>console.log(date))
 }
@@ -14,7 +14,7 @@ fetch(URL,{mode:"no-cors"})
 </head>
 
 <body>
-  test3
+  test4
 <form name="form1">
 <input type="button" value="test" onclick="button()">
 
