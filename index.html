@@ -4,8 +4,8 @@
 <script type="text/JavaScript">
 
 function button(){
-var URL="https://charasheet.vampire-blood.net/4067975"
-fetch(URL)
+var URL="https://charasheet.vampire-blood.net/4067975.js"
+fetch(URL,{mode:"no-cors"})
 .then(response=>response.json())
 .then(date=>console.log(date))
 }
@@ -14,6 +14,7 @@ fetch(URL)
 </head>
 
 <body>
+  test
 <form name="form1">
 <input type="button" value="test" onclick="button()">
 
